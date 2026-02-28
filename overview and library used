@@ -1,0 +1,51 @@
+💧 AI Water Leakage System
+
+An AI-powered IoT-based water leakage detection system that monitors water flow in real-time, detects abnormal usage patterns using Machine Learning, and sends instant alerts to prevent water wastage and infrastructure damage.
+
+📌 Project Overview
+This system continuously monitors water flow using IoT sensors connected to an ESP8266/ESP32 microcontroller. The collected data is sent to a cloud server where a Machine Learning model analyzes it to detect abnormal patterns (possible leaks).
+
+If abnormal flow is detected:
+
+An alert is generated
+
+Notification is sent to the user
+
+Data is stored for future analysis
+
+
+🐍 Python Libraries (AI & Backend)
+
+numpy
+
+pandas
+
+scikit-learn
+
+flask
+
+joblib
+
+matplotlib
+
+mysql-connector-python (if using MySQL)
+
+firebase-admin (if using Firebase)
+
+🔌 Arduino / ESP8266 Libraries
+
+ESP8266WiFi.h
+
+ESP8266HTTPClient.h
+
+WiFi.h (for ESP32)
+
+HTTPClient.h (for ESP32)
+
+🌐 Frontend Libraries (Optional)
+
+Bootstrap
+
+Chart.js
+
+Axios
